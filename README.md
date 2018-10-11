@@ -32,6 +32,8 @@ Preprocessed: [bmi-sig5e-3.txt](bmi-sig5e-3.txt);
 Original: BMI.ACTIVE.ALL.AllAncestry.txt.gz. 
 
 Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/bmi.zip).  
+LD-based clumped SNPs [download](https://github.com/walterxie/assignment-prs/raw/master/bmi.clump.zip).
+
 
 2. __Years of educational attainment 2016__ (eduyears)
 
@@ -40,7 +42,8 @@ SSGAC data sharing: Okbay et al. (2016)
 Preprocessed: [EduYears-sig5e-3.txt](EduYears-sig5e-3.txt);
 Original: EduYears_Main.txt.gz
 
-Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/eduyears.zip).  
+Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/eduyears.zip). 
+LD-based clumped SNPs [download](https://github.com/walterxie/assignment-prs/raw/master/eduyears.clump.zip).
 
 3. __Infant head circumference__ (hc)
 
@@ -50,6 +53,7 @@ Preprocessed: [hc-sig5e-3-drop22.txt](hc-sig5e-3-drop22.txt);
 Original: EGG_HC_DISCOVERY.v2.txt.gz
 
 Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/hc.zip).  
+LD-based clumped SNPs [download](https://github.com/walterxie/assignment-prs/raw/master/hc.clump.zip).
 
 4. __In transformed fasting insulin__ (insulin)
 
@@ -58,7 +62,8 @@ MAGIC: fasting insulin
 Preprocessed: [insulin-sig5e-3-drop0.txt](insulin-sig5e-3-drop0.txt);
 Original: FI_STAGE1_2_3_SEX_GWAS_2018.txt.gz
 
-Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/insulin.zip).  
+Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/insulin.zip). 
+LD-based clumped SNPs [download](https://github.com/walterxie/assignment-prs/raw/master/insulin.clump.zip).
 
 5. __Waist−to−hip ratio__ (whr)
 
@@ -68,6 +73,7 @@ Preprocessed: [waist-sig5e-3.txt](waist-sig5e-3.txt);
 Original: WHRadjBMI.ACTIVE.ALL.AllAncestry.txt.gz
 
 Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/whr.zip).  
+LD-based clumped SNPs [download](https://github.com/walterxie/assignment-prs/raw/master/whr.clump.zip).
 
 
 ## PRS calculation

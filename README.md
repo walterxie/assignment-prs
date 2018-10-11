@@ -1,13 +1,12 @@
 # Assignment on PRS Calculation
 
 
-## GWAS 
+## Data 
 Find and download one of the following GWAS summaries, which are linked from GWAShare Center in LD Hub http://ldsc.broadinstitute.org
 
 1. __BMI__
 
-GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
-
+### GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
 Preprocessed: [bmi-sig5e-3.txt](bmi-sig5e-3.txt);
 Original: BMI.ACTIVE.ALL.AllAncestry.txt.gz. 
 

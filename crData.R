@@ -1,25 +1,25 @@
 setwd("~/WorkSpace/Neanderthal/src")
 source("Result.R")
 
-# back to work path
-setwd("~/WorkSpace/assignment-prs")
-
 # human 1000G population
-pop <- getPhenoPop(data.dir="data")
+pop <- getPhenoPop(data.dir="../data")
 
 sup.pop = unique(pheno$SuperPopulation)
 human.pop <- data.frame(stringsAsFactors = F)
 for (sp in sup.pop) {
-  indi <- pheno[pheno$SuperPopulation ==sp,][1,]
+  indi <- pheno[pheno$SuperPopulation ==sp,][2,]
   human.pop <- rbind(human.pop, indi)
 }
+
+# back to work path
+setwd("~/WorkSpace/assignment-prs")
 
 write.table(human.pop, file="human.pop.txt", sep="\t", row.names=F, quote=F)
 
 # human samples
 samp = human.pop$Individual.ID
 
-
+### extract genotypes
 traits.names <- c("bmi","eduyears","hc","insulin","whr") 
 neans=c("Altai","Denisovan","Vindija33.19")
 colns=c("rsid","CHROM","POS","REF","ALT","GT")
@@ -32,23 +32,32 @@ for (trait.name in traits.names) {
   ### 5 human
   for (chr in 1:22) {
     setwd(PLINK.RESULT.PATH)
-    gt.raw.map <- read.table(paste0(trait.name, ".vcfchr", chr, ".map"), header=F, sep="\t", stringsAsFactors = F)
-    gt.raw.ped <- read.table(paste0(trait.name, ".vcfchr", chr, ".ped"), header=F, sep="", stringsAsFactors = F)
-    if (nrow(gt.raw.map) != (ncol(gt.raw.ped)-6)/2)
-      stop("Number of SNPs in .map != .ped, chr = ", chr, ", trait = ", trait.name)
+    # read VCF
+    fn.vcf <- paste0(trait.name, ".chr", chr, ".vcf")
+    con <- file(fn.vcf,open="r")
+    lins <- readLines(con, n=7)
+    close(con)
+    vcf.colns <- strsplit(lins[length(lins)], "\t")[[1]]
+    #"#CHROM"
+    vcf.colns[1] <- substring(vcf.colns[1], 2)  
+    # "HG00096_HG00096" "HG00097_HG00097" "HG00099_HG00099"
+    vcf.colns <- gsub("_.*$", "", vcf.colns)
+    #human.pop$Individual.ID %in% vcf.colns
     
+    # CHROM POS  ID REF ALT QUAL FILTER INFO FORMAT HG00096
+    gt.raw <- read.table(file=fn.vcf, header=T, sep="\t", comment.char="#")
+    if (ncol(gt.raw) != length(vcf.colns))
+      stop("Column names did not parse correctly from VCF file ", fn.vcf)
+    colnames(gt.raw) <- vcf.colns
+    
+    gt <- gt.raw[,1:5]
+    #sample.start = which(colnames(gt.raw)=="HG00096") # 2504
     for (ind in samp) {
-      # HG01879 HG01879  0  0  0 -9 
-      gt.ind <- gt.raw.ped[gt.raw.ped[,1]==ind,]
-      # split into two columns with GT pairs
-      gt <- matrix(gt.ind[-1:-6], ncol=2, byrow=TRUE)
-      # "Allele1","Allele2"
-      gt.raw.map$Allele1 <- unlist(gt[,1])
-      gt.raw.map$Allele2 <- unlist(gt[,2])
+      gt[,ind] <- gt.raw[,ind]
     }
     setwd("~/WorkSpace/assignment-prs")
-    write.table(gt.raw.map, file=paste0(trait.name,".chr", chr,".human.genotypes.txt"), sep="\t", 
-                col.names=F, row.names=F, quote=F)
+    write.table(gt, file=paste0(trait.name,".chr", chr,".human.genotypes.txt"), sep="\t", 
+                row.names=F, quote=F)
   }
   
   ### 3 Neanderthals genotypes

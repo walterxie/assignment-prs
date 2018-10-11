@@ -1,8 +1,12 @@
 # Assignment on PRS Calculation
 
+Find and download one of the following GWAS summaries, which were preprocessed from raw files listed in GWAShare Center in LD Hub http://ldsc.broadinstitute.org
+
+The mapping file of Human populations is [human.pop.txt](human.pop.txt). The population code is dscribed http://www.internationalgenome.org/category/population/. 
+
+
 
 ## Data 
-Find and download one of the following GWAS summaries, which are linked from GWAShare Center in LD Hub http://ldsc.broadinstitute.org
 
 1. __BMI__
 

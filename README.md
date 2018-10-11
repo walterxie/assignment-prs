@@ -85,9 +85,10 @@ The result saved in the _*.clumped_ file provides index SNPs in "SNP" column. We
 
 Tip to read _*.clumped_ files in R:
 ```R
-  # https://stackoverflow.com/questions/16979858/reading-text-file-with-multiple-space-as-delimiter-in-r 
-	clump.df <- read.table(file, sep = "" , header = T, na.strings ="", stringsAsFactors= F)
+# https://stackoverflow.com/questions/16979858/reading-text-file-with-multiple-space-as-delimiter-in-r 
+clump.df <- read.table(file, sep = "" , header = T, na.strings ="", stringsAsFactors= F)
 ```
+
 
 ## Questions
 

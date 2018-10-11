@@ -74,12 +74,20 @@ Human & Hominins genotypes [download](https://github.com/walterxie/assignment-pr
 
 There are [different models](https://choishingwan.github.io/PRSice/step_by_step/#prs-calculation) for PRS analyses. In this assignment, we are going to use additive model.
 
+There are also different approaches to perform PRS analysis. In this assignment, we focus on two of them: p-value thresholding (P+T) without/with LD-based clumping.  
+
 
 ## LD-based clumping
 
 [PLINK](https://www.cog-genomics.org/plink/1.9/)'s LD-based result clumping procedure groups SNP-based results across one or more datasets or analyses, based on empirical estimates of linkage disequilibrium between SNPs. http://zzz.bwh.harvard.edu/plink/clump.shtml  
 
+The result saved in the _*.clumped_ file provides index SNPs in "SNP" column. We should use these index SNPs rather than all SNPs from VCF files during PRS calculation.
 
+Tip to read _*.clumped_ files in R:
+```R
+  # https://stackoverflow.com/questions/16979858/reading-text-file-with-multiple-space-as-delimiter-in-r 
+	clump.df <- read.table(file, sep = "" , header = T, na.strings ="", stringsAsFactors= F)
+```
 
 ## Questions
 
@@ -87,8 +95,11 @@ There are [different models](https://choishingwan.github.io/PRSice/step_by_step/
 
 2. Make a summary of given genotypes in the trait.
 
+3. Why do we need to make LD-based clumping before calculating PRS?
 
+4. Compare PRSs calculated by all SNPs with PRSs by index SNPs from clumping. 
 
+5. 
 
 
 

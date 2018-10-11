@@ -32,14 +32,7 @@ MAGIC: fasting insulin
 Preprocessed: [insulin-sig5e-3-drop0.txt](insulin-sig5e-3-drop0.txt);
 Original: FI_STAGE1_2_3_SEX_GWAS_2018.txt.gz
 
-5. __Height__
-
-GIANT consortium: GWAS Anthropometric 2014 Height. 
-
-Preprocessed: [height-sig5e-3-drop65.txt](height-sig5e-3-drop65.txt);
-Original: GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt.gz
-
-6. __Waist−to−hip ratio__
+5. __Waist−to−hip ratio__
 
 GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
 

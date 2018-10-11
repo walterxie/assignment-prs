@@ -20,6 +20,8 @@ b : effect size (e.g. beta)
 p : p value
 ```
 
+The genotypes data belongs to 5 humans (named as "HG01880" "HG03007" "HG00867" "NA06989" "HG01121") selected from 5 super populations and 3 Hominins (named as "Altai" "Denisovan" "Vindija33.19")  
+
 1. __BMI__
 
 GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis

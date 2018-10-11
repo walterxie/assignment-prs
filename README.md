@@ -9,13 +9,6 @@ Find and download one of the following GWAS summaries, which are linked from GWA
 GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
 BMI.ACTIVE.ALL.AllAncestry.txt.gz
 
-
-1. __BMI__
-
-GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
-BMI.ACTIVE.ALL.AllAncestry.txt.gz
-
-
 2. __Years of educational attainment 2016__
 
 SSGAC data sharing: Okbay et al. (2016)
@@ -31,7 +24,11 @@ EGG_HC_DISCOVERY.v2.txt.gz
 MAGIC: fasting insulin
 FI_STAGE1_2_3_SEX_GWAS_2018.txt.gz
 
-5. __Waist−to−hip ratio__
+5. __Height__
+GIANT consortium: GWAS Anthropometric 2014 Height. 
+GIANT_HEIGHT_Wood_et_al_2014_publicrelease_HapMapCeuFreq.txt.gz
+
+6. __Waist−to−hip ratio__
 
 GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
 WHRadjBMI.ACTIVE.ALL.AllAncestry.txt.gz

@@ -81,7 +81,7 @@ There are also different approaches to perform PRS analysis. In this assignment,
 
 [PLINK](https://www.cog-genomics.org/plink/1.9/)'s LD-based result clumping procedure groups SNP-based results across one or more datasets or analyses, based on empirical estimates of linkage disequilibrium between SNPs. http://zzz.bwh.harvard.edu/plink/clump.shtml  
 
-The result saved in the _*.clumped_ file provides index SNPs in "SNP" column. We should use these index SNPs rather than all SNPs from VCF files during PRS calculation.
+The result saved in the _*.clumped_ file provides index SNPs in the "SNP" column. We should use these index SNPs rather than all SNPs from VCF files during PRS calculation.
 
 Tip to read _*.clumped_ files in R:
 ```R

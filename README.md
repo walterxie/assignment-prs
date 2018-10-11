@@ -11,13 +11,13 @@ The mapping file of Human populations is [human.pop.txt](human.pop.txt). The pop
 The GWAS summary had been prepossed due to various of data issues. The columns used for the analysis are:
 
 ```txt
-rsid  the unique identifier of SNPs
-CHR	  chromosome
-POS	  chromosome position (GRCh37/hg19)
-A1    effect allele (also called risk allele, reference allele, coded allele, etc.)
-A2    non-effect allele (also called alternate allele, the other allele etc.)
-b     effect size (e.g. beta)
-p     p value
+rsid : the unique identifier of SNPs
+CHR : chromosome
+POS : chromosome position (GRCh37/hg19)
+A1 : effect allele (also called risk allele, reference allele, coded allele, etc.)
+A2 : non-effect allele (also called alternate allele, the other allele etc.)
+b : effect size (e.g. beta)
+p : p value
 ```
 
 1. __BMI__

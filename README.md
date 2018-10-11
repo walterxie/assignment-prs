@@ -104,9 +104,9 @@ clump.df <- read.table(file, sep = "" , header = T, na.strings ="", stringsAsFac
 
 3. Why do we need to make LD-based clumping before calculating PRS?
 
-4. Compare PRSs calculated by all SNPs with PRSs by index SNPs from clumping. 
+4. Compare PRSs (p-value < 5E-3) calculated by all SNPs with PRSs by index SNPs from clumping. 
 
-5. 
+5. Focusing on with LD-based clumping, what are the PRSs using these different thresholds: 5E-3, 1E-4, 5E-4, 1E-5, 5E-5, 1E-6, 5E-6, 1E-7.
 
 
 

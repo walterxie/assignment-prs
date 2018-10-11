@@ -6,7 +6,9 @@ The mapping file of Human populations is [human.pop.txt](human.pop.txt). The pop
 
 
 
-## Data 
+## GWAS summary and genotypes data 
+
+The GWAS summary had been prepossed due to various of data issues. The columns are 
 
 1. __BMI__
 
@@ -15,9 +17,7 @@ GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
 Preprocessed: [bmi-sig5e-3.txt](bmi-sig5e-3.txt);
 Original: BMI.ACTIVE.ALL.AllAncestry.txt.gz. 
 
-Human genotypes:
-
-Hominins genotypes:
+Human & Hominins genotypes [download](https://github.com/walterxie/assignment-prs/raw/master/bmi.zip).  
 
 2. __Years of educational attainment 2016__
 
@@ -69,5 +69,9 @@ Hominins genotypes:
 
 
 
-## 
+## Questions
+
+1. 
+
+
 

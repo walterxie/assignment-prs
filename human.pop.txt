@@ -1,0 +1,6 @@
+Population	Family.ID	Individual.ID	Paternal.ID	Maternal.ID	Gender	Phenotype	Relationship	Siblings	Second.Order	Third.Order	Other.Comments	Description	SuperPopulation	SuperPopulationDescription	PopulationHGHG	Male	SampleSizeM	Female	SampleSizeF	Measurement.or.Self.Report	Reference
+ACB	BB01	HG01879	0	0	1	0	father	0	0	0	0	African Caribbeans in Barbados	AFR	African	African Caribbeans in Barbados	172.9	329	160.2	481	Measurement	Long et al (1998)
+BEB	BD01	HG03006	0	0	1	0	father	0	0	0	0	Bengali from Bangladesh	SAS	South Asian	West Bengal	163.1	1163	150.9	3269	Measurement	Perkins et al (2011)
+CDX	CDX1	HG00866	0	0	1	0	unrel	0	0	0	Parent/Child directionality is uncertain	"Chinese Dai in Xishuangbanna, China"	EAS	East Asian	Thailand	168.4	"38,899"	157.8	"47,117"	Self-Report	Jordan et al (2010)
+CEU	1328	NA06984	0	0	1	0	father	0	0	0	0	Utah Residents (CEPH) with Northern and Western European Ancestry	EUR	European	European Americans	176.7	5301	162.7	5613	Measurement	Ogden et al (2004)
+CLM	CLM01	HG01119	0	0	2	0	mother	0	0	0	0	"Colombians from Medellin, Colombia"	AMR	Ad Mixed American		NA		NA			

@@ -75,6 +75,12 @@ Human & Hominins genotypes [download](https://github.com/walterxie/assignment-pr
 There are [different models](https://choishingwan.github.io/PRSice/step_by_step/#prs-calculation) for PRS analyses. In this assignment, we are going to use additive model.
 
 
+## LD-based clumping
+
+[PLINK](https://www.cog-genomics.org/plink/1.9/)'s LD-based result clumping procedure groups SNP-based results across one or more datasets or analyses, based on empirical estimates of linkage disequilibrium between SNPs. http://zzz.bwh.harvard.edu/plink/clump.shtml  
+
+
+
 ## Questions
 
 1. What is the formula for additive model to calculate PRS?

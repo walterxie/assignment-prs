@@ -4,12 +4,14 @@ source("Result.R")
 # human 1000G population
 pop <- getPhenoPop(data.dir="../data")
 
-sup.pop = unique(pheno$SuperPopulation)
+population = unique(pop$Population)
 human.pop <- data.frame(stringsAsFactors = F)
-for (sp in sup.pop) {
-  indi <- pheno[pheno$SuperPopulation ==sp,][2,]
+for (p in population) {
+  indi <- pop[pop$Population ==p,][2,]
   human.pop <- rbind(human.pop, indi)
 }
+human.pop <- human.pop[,c("Individual.ID","Population","Description",
+                          "SuperPopulation","SuperPopulationDescription")]
 
 # back to work path
 setwd("~/WorkSpace/assignment-prs")
@@ -81,4 +83,4 @@ for (trait.name in traits.names) {
   }
 }
 
-
+# zip bmi.zip bmi.*.genotypes.txt

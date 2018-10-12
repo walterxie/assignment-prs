@@ -1,6 +1,27 @@
-Population	Family.ID	Individual.ID	Paternal.ID	Maternal.ID	Gender	Phenotype	Relationship	Siblings	Second.Order	Third.Order	Other.Comments	Description	SuperPopulation	SuperPopulationDescription	PopulationHGHG	Male	SampleSizeM	Female	SampleSizeF	Measurement.or.Self.Report	Reference
-ACB	BB01	HG01880	0	0	2	0	mother	0	0	0	0	African Caribbeans in Barbados	AFR	African	African Caribbeans in Barbados	172.9	329	160.2	481	Measurement	Long et al (1998)
-BEB	BD01	HG03007	0	0	2	0	mother	0	0	0	0	Bengali from Bangladesh	SAS	South Asian	West Bengal	163.1	1163	150.9	3269	Measurement	Perkins et al (2011)
-CDX	CDX1	HG00867	HG00866	0	2	0	unrel	0	0	0	Parent/Child directionality is uncertain	"Chinese Dai in Xishuangbanna, China"	EAS	East Asian	Thailand	168.4	"38,899"	157.8	"47,117"	Self-Report	Jordan et al (2010)
-CEU	1328	NA06989	0	0	2	0	mother	0	0	0	0	Utah Residents (CEPH) with Northern and Western European Ancestry	EUR	European	European Americans	176.7	5301	162.7	5613	Measurement	Ogden et al (2004)
-CLM	CLM02	HG01121	0	0	1	0	father	0	0	0	0	"Colombians from Medellin, Colombia"	AMR	Ad Mixed American		NA		NA			
+Individual.ID	Population	Description	SuperPopulation	SuperPopulationDescription
+HG01879	ACB	African Caribbeans in Barbados	AFR	African
+NA19625	ASW	Americans of African Ancestry in SW USA	AFR	African
+HG03006	BEB	Bengali from Bangladesh	SAS	South Asian
+HG00867	CDX	"Chinese Dai in Xishuangbanna, China"	EAS	East Asian
+NA06984	CEU	Utah Residents (CEPH) with Northern and Western European Ancestry	EUR	European
+NA18525	CHB	"Han Chinese in Bejing, China"	EAS	East Asian
+HG00403	CHS	Southern Han Chinese (Hu Nan and Fu Jian)	EAS	East Asian
+HG01119	CLM	"Colombians from Medellin, Colombia"	AMR	Ad Mixed American
+HG02922	ESN	Esan in Nigeria	AFR	African
+HG00171	FIN	Finnish in Finland	EUR	European
+HG00155	GBR	British in England and Scotland	EUR	European
+NA20868	GIH	"Gujarati Indian from Houston, Texas"	SAS	South Asian
+HG03024	GWD	Gambian in Western Divisions in the Gambia	AFR	African
+HG01500	IBS	Iberian Population in Spain	EUR	European
+HG03871	ITU	Indian Telugu from the UK	SAS	South Asian
+NA18939	JPT	"Japanese in Tokyo, Japan"	EAS	East Asian
+HG01595	KHV	"Kinh in Ho Chi Minh City, Vietnam"	EAS	East Asian
+NA19331	LWK	"Luhya in Webuye, Kenya"	AFR	African
+HG03057	MSL	Mende in Sierra Leone	AFR	African
+NA19734	MXL	Mexican Ancestry from Los Angeles USA	AMR	Ad Mixed American
+HG01565	PEL	"Peruvians from Lima, Peru"	AMR	Ad Mixed American
+HG03022	PJL	"Punjabi from Lahore, Pakistan"	SAS	South Asian
+HG00551	PUR	Puerto Ricans from Puerto Rico	AMR	Ad Mixed American
+HG03646	STU	Sri Lankan Tamil from the UK	SAS	South Asian
+NA20502	TSI	Toscani in Italia	EUR	European
+NA18486	YRI	"Yoruba in Ibadan, Nigeria"	AFR	African

@@ -108,7 +108,7 @@ clump.df <- read.table(file, sep = "" , header = T, na.strings ="", stringsAsFac
 
 5. Focusing on with LD-based clumping, what are the PRSs using these different thresholds: 5E-3, 1E-4, 5E-4, 1E-5, 5E-5, 1E-6, 5E-6, 1E-7.
 
-6. Plot PRS strata (ref. to Fig 3b in https://www.biorxiv.org/content/early/2018/09/14/416545) for question 4 and 5.
+6. Plot PRS strata (ref. to [Fig 3b](https://www.biorxiv.org/content/early/2018/09/14/416545)) for question 4 and 5.
 
 
 

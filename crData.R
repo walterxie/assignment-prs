@@ -3,11 +3,13 @@ source("Result.R")
 
 # human 1000G population
 pop <- getPhenoPop(data.dir="../data")
+pop2 <- read.table("../data/integrated_call_samples_v3.20130502.ALL.panel", header=T, sep="\t")
+pop <- pop[pop$Individual.ID %in% pop2$sample,]
 
 population = unique(pop$Population)
 human.pop <- data.frame(stringsAsFactors = F)
 for (p in population) {
-  indi <- pop[pop$Population ==p,][2,]
+  indi <- pop[pop$Population ==p,][1,]
   human.pop <- rbind(human.pop, indi)
 }
 human.pop <- human.pop[,c("Individual.ID","Population","Description",
@@ -44,7 +46,7 @@ for (trait.name in traits.names) {
     vcf.colns[1] <- substring(vcf.colns[1], 2)  
     # "HG00096_HG00096" "HG00097_HG00097" "HG00099_HG00099"
     vcf.colns <- gsub("_.*$", "", vcf.colns)
-    #human.pop$Individual.ID %in% vcf.colns
+    #samp %in% vcf.colns
     
     # CHROM POS  ID REF ALT QUAL FILTER INFO FORMAT HG00096
     gt.raw <- read.table(file=fn.vcf, header=T, sep="\t", comment.char="#")

@@ -78,7 +78,7 @@ LD-based clumped SNPs [download](https://github.com/walterxie/assignment-prs/raw
 
 ## PRS calculation
 
-There are [different models](https://choishingwan.github.io/PRSice/step_by_step/#prs-calculation) for PRS analyses. In this assignment, we are going to use additive model.
+There are [different models](https://choishingwan.github.io/PRSice/step_by_step/#prs-calculation) to code the genotypes during PRS analyses. In this assignment, we are going to use additive model.
 
 There are also different approaches to perform PRS analysis. In this assignment, we focus on two of them: p-value thresholding (P+T) without/with LD-based clumping.  
 
@@ -98,7 +98,7 @@ clump.df <- read.table(file, sep = "" , header = T, na.strings ="", stringsAsFac
 
 ## Questions
 
-1. What is the formula for additive model to calculate PRS?
+1. How many models that the genotypes are coded? What is the formula for additive model to calculate PRS?
 
 2. Make a summary of given genotypes in the trait.
 

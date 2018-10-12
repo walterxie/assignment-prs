@@ -1,6 +1,9 @@
 # Data
-.txt
-.vcf
+*.txt
+*.vcf
+
+# Ignore Mac system files
+.DS_store
 
 # History files
 .Rhistory

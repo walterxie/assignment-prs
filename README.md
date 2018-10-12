@@ -21,7 +21,7 @@ b : effect size (e.g. beta)
 p : p value
 ```
 
-The genotypes data belongs to 5 humans (named as "HG01880" "HG03007" "HG00867" "NA06989" "HG01121") selected from 5 super populations and 3 Hominins (named as "Altai" "Denisovan" "Vindija33.19"). The file format is same as [VCF](http://www.internationalgenome.org/wiki/Analysis/vcf4.0/) except that it is tab-delimited and the first row is column names. 
+The genotypes data belongs to 26 humans selected from 5 super populations and 3 Hominins (named as "Altai" "Denisovan" "Vindija33.19"). The file format is same as [VCF](http://www.internationalgenome.org/wiki/Analysis/vcf4.0/) except that it is tab-delimited and the first row is column names. 
 
 
 1. __BMI__ (bmi)

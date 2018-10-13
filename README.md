@@ -6,8 +6,7 @@ Find and download one of the following GWAS summaries, which were preprocessed f
 
 The mapping file of human populations is [human.pop.txt](human.pop.txt). The population code is dscribed http://www.internationalgenome.org/category/population/. 
 
-The paper [A guide to performing Polygenic Risk Score analyses](https://www.biorxiv.org/content/early/2018/09/14/416545) may be helpful for information about calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
-
+The paper [A guide to performing Polygenic Risk Score analyses](https://www.biorxiv.org/content/early/2018/09/14/416545) may provide some helpful information on calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
 
 ## GWAS summary and genotypes data 
 

@@ -10,7 +10,7 @@ The paper [A guide to performing Polygenic Risk Score analyses](https://www.bior
 
 ## GWAS summary and genotypes data 
 
-The GWAS summary had been preprocessed due to various of data issues. The columns used for the analysis are:
+The GWAS summary had been pre-processed to protect you from some of the more annoying data issues. The columns used for the analysis are:
 
 ```GWAS
 rsid : the unique identifier of SNPs

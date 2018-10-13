@@ -8,7 +8,7 @@ The mapping file of human populations is [human.pop.txt](human.pop.txt). The pop
 
 The paper [A guide to performing Polygenic Risk Score analyses](https://www.biorxiv.org/content/early/2018/09/14/416545) may provide some helpful information on calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.
 
-## GWAS summary and genotypes data 
+## GWAS summary and genotype data 
 
 The GWAS summary had been pre-processed to protect you from some of the more annoying data issues. The columns used for the analysis are:
 
@@ -22,7 +22,7 @@ b : effect size (e.g. beta)
 p : p value
 ```
 
-The genotypes data belongs to 26 humans selected from 5 super populations and 3 Hominins (named as "Altai" "Denisovan" "Vindija33.19"). The file format is same as [VCF](http://www.internationalgenome.org/wiki/Analysis/vcf4.0/) except that it is tab-delimited and the first row is column names. 
+The genotype data you will calculate PRSs for belong to 26 humans selected from 5 super populations and 3 ancient hominins (named as "Altai" "Denisovan" "Vindija33.19"). The file format for the genotype data is the same as [VCF](http://www.internationalgenome.org/wiki/Analysis/vcf4.0/) except that it is tab-delimited and the first row contains column names. 
 
 
 1. __BMI__ (bmi)

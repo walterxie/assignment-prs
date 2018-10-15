@@ -69,7 +69,7 @@ LD-based clumped SNPs [download](https://github.com/walterxie/assignment-prs/raw
 
 GIANT consortium: 2017 GIANT Gene-Physical Activity Interaction Meta-analysis
 
-Preprocessed: [waist-sig5e-3.txt](waist-sig5e-3.txt);
+Preprocessed: [whr-sig5e-3.txt](whr-sig5e-3.txt);
 Original: WHRadjBMI.ACTIVE.ALL.AllAncestry.txt.gz
 
 human & hominin genotype data [download](https://github.com/walterxie/assignment-prs/raw/master/whr.zip).  

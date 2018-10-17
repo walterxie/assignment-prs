@@ -104,7 +104,7 @@ Please write up your analysis in a report, describe what you did, and answer the
 
 3. Compare PRSs (p-value < 5E-3) calculated by all SNPs with PRSs by index SNPs from clumping for all 29 samples. 
 
-4. Focusing on the LD-based clumping method, calculate PRSs using these different thresholds: 5e-3, 1e-3, 5e-4, 1e-4, 5e-5, 1e-5, 5e-6, 1e-6, 5e-6, 1e-7.
+4. Focusing on the LD-based clumping method, calculate PRSs using these different thresholds: 5e-3, 1e-3, 5e-4, 1e-4, 5e-5, 1e-5, 5e-6, 1e-6, 5e-7, 1e-7.
 
 5. What threshold should we use?
 

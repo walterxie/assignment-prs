@@ -1,9 +1,9 @@
 setwd("~/WorkSpace/Neanderthal/src")
-source("Result.R")
+source("Trait.R")
 
 # human 1000G population
 pop <- getPhenoPop(data.dir="../data")
-pop2 <- read.table("../data/integrated_call_samples_v3.20130502.ALL.panel", header=T, sep="\t")
+pop2 <- read.table("../data/integrated_call_samples_v3.20130502.ALL.panel", header=T, sep="\t", fill = NA)
 pop <- pop[pop$Individual.ID %in% pop2$sample,]
 
 population = unique(pop$Population)
